@@ -820,3 +820,50 @@ a { color: inherit; }
    text-decoration: underline;
    cursor: pointer;
 }
+
+
+/* =========================================================
+   QUALIDADE (estilo saudeeflix pv-derma - copiado exato)
+   ========================================================= */
+.quality-section {
+   background: linear-gradient(135deg, #b02040, var(--gold-dark), var(--gold), var(--gold-dark), #b02040);
+   padding: 72px 20px;
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+   font-family: 'Poppins', sans-serif;
+}
+.quality-section::before {
+   content: '';
+   position: absolute; inset: 0;
+   background: radial-gradient(ellipse 80% 60% at 50% 30%, rgba(255,255,255,.10) 0%, transparent 60%);
+   pointer-events: none;
+}
+.quality-inner {
+   max-width: 680px;
+   margin: 0 auto;
+   position: relative; z-index: 1;
+}
+.quality-stars {
+   font-size: 44px;
+   letter-spacing: 8px;
+   margin-bottom: 20px;
+   filter: drop-shadow(0 2px 8px rgba(0,0,0,.20));
+}
+.quality-title {
+   font-family: 'Poppins', sans-serif;
+   font-size: clamp(28px, 4.5vw, 52px);
+   font-weight: 900;
+   color: #fff;
+   line-height: 1.12;
+   margin: 0 0 28px;
+   letter-spacing: -.02em;
+   text-shadow: 0 2px 12px rgba(0,0,0,.20);
+}
+.quality-text {
+   font-size: clamp(15px, 1.8vw, 18px);
+   color: rgba(255,255,255,.90);
+   line-height: 1.72;
+   margin: 0 0 16px;
+}
+.quality-text strong { color: #fff; font-weight: 800; }

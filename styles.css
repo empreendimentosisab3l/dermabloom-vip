@@ -206,7 +206,9 @@ a { color: inherit; }
 
 /* Mobile: compactar para caber CTA na primeira dobra */
 @media (max-width: 768px) {
-   .vip-header { display: none; }
+   .vip-header { padding: 8px 14px; }
+   .alert-tag { font-size: 11px; padding: 5px 12px; letter-spacing: 0.06em; }
+   .alert-tag .dot { width: 7px; height: 7px; }
    .vp-hero { padding: 20px 18px 22px; }
    .vp-hero-inner { max-width: 100%; }
    .vip-badge { font-size: 11px; letter-spacing: 1.5px; padding: 5px 14px; margin-bottom: 10px; }
@@ -918,9 +920,9 @@ a { color: inherit; }
 .vip-header .vip-header-inner { display: flex; justify-content: center; align-items: center; }
 .alert-tag {
    display: inline-flex; align-items: center; gap: 8px;
-   background: rgba(239, 68, 68, 0.15);
+   background: rgba(239, 68, 68, 0.18);
    color: #ffd9d9;
-   border: 1px solid rgba(239, 68, 68, 0.45);
+   border: 1.5px solid rgba(239, 68, 68, 0.7);
    padding: 6px 14px;
    border-radius: 999px;
    font-family: 'Poppins', sans-serif;

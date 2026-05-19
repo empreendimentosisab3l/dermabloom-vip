@@ -7,7 +7,7 @@
    <meta name="description" content="Voce foi sorteado(a) como Cliente VIP. Garanta sua DermaBloom com desconto unico antes que o estoque acabe.">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="styles.css">
    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -50,7 +50,36 @@
       </div>
    </section>
 
-   <!-- WHATSAPP BANNER (estilo Power) -->
+   <!-- CONTADOR (saudeeflix) -->
+   <div class="cd-section">
+      <div class="cd-inner">
+         <p class="cd-pre">Garanta seu DermaBloom com desconto</p>
+         <h2 class="cd-title"><span class="cd-hi">enquanto durarem os estoques!</span></h2>
+         <div class="cd-arrow">&#9660;</div>
+         <div class="cd-timer-row">
+            <div class="cd-box">
+               <span class="cd-num" id="cd1-min">14</span>
+               <span class="cd-lbl">Minutos</span>
+            </div>
+            <span class="cd-sep">:</span>
+            <div class="cd-box">
+               <span class="cd-num" id="cd1-sec">59</span>
+               <span class="cd-lbl">Segundos</span>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- 3 CARDS OFERTA (saudeeflix) -->
+   <div class="oc-section" id="oferta">
+      <div class="oc-imgs-row">
+         <a href="https://checkout.payt.com.br/1040baeb8ff76589c85cb9665c87bc54?split=12&src=derma-back"><img src="https://saudeeflix.com/pv-derma/img/1-5.webp" alt="1 Pote DermaBloom" class="oc-full-img"></a>
+         <a href="https://checkout.payt.com.br/1c33ecae4bf83a7a7104353d9530afda?split=12&src=derma-back"><img src="https://saudeeflix.com/pv-derma/img/2-2.webp" alt="3 Potes DermaBloom" class="oc-full-img"></a>
+         <a href="https://checkout.payt.com.br/8f7169705bc163ec1c3d0ca8535b3850?split=12&src=derma-back"><img src="https://saudeeflix.com/pv-derma/img/3-2.webp" alt="6 Potes DermaBloom" class="oc-full-img"></a>
+      </div>
+   </div>
+
+   <!-- WHATSAPP BANNER R$150 -->
    <section class="wpp-banner">
       <div class="container">
          <div class="wpp-banner-inner">
@@ -67,298 +96,121 @@
       </div>
    </section>
 
-   <!-- OFERTAS -->
-   <section class="vp-offers" aria-label="Escolha seu pacote DermaBloom">
-      <div class="vp-offers-head">
-         <h2>Sua oferta VIP liberada</h2>
-         <p>Selecione o pacote ideal - <strong>frete gratis</strong> para todo Brasil</p>
-      </div>
-      <div class="vp-offers-inner">
-
-         <!-- 1 POTE -->
-         <a href="https://checkout.payt.com.br/1040baeb8ff76589c85cb9665c87bc54?split=12&src=derma-back" class="vp-card" aria-label="Comprar 1 pote DermaBloom VIP">
-            <img src="https://saudeeflix.com/pv-derma/img/1-5.webp" alt="DermaBloom - 1 Pote - 30 dias" class="vp-card-img">
-         </a>
-
-         <!-- 3 POTES -->
-         <a href="https://checkout.payt.com.br/1c33ecae4bf83a7a7104353d9530afda?split=12&src=derma-back" class="vp-card" aria-label="Comprar 3 potes DermaBloom VIP">
-            <img src="https://saudeeflix.com/pv-derma/img/2-2.webp" alt="DermaBloom - 3 Potes - 90 dias" class="vp-card-img">
-         </a>
-
-         <!-- 6 POTES - FEATURED -->
-         <a href="https://checkout.payt.com.br/8f7169705bc163ec1c3d0ca8535b3850?split=12&src=derma-back" class="vp-card featured" aria-label="Comprar 6 potes DermaBloom VIP">
-            <img src="https://saudeeflix.com/pv-derma/img/3-2.webp" alt="DermaBloom - 6 Potes - 180 dias" class="vp-card-img">
-         </a>
-
-      </div>
-   </section>
-
    <!-- SATISFACAO -->
-   <section class="vp-satisfaction" aria-label="Avaliacoes dos clientes">
-      <div class="vp-satisfaction-inner">
-         <h2 class="vp-satisfaction-title">O que nossos clientes dizem</h2>
-         <div class="vp-satisfaction-rate">
-            <span class="vp-satisfaction-rate-num">99</span>
-            <span class="vp-satisfaction-rate-pct">%</span>
-         </div>
-         <p class="vp-satisfaction-sub">Taxa de satisfacao</p>
-         <div class="vp-satisfaction-stars" aria-label="5 de 5 estrelas">
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-         </div>
-         <p class="vp-satisfaction-reviews">Baseado em <strong>11.482 avaliacoes</strong> reais</p>
+   <div class="sat-section">
+      <div class="sat-inner">
+         <h2 class="sat-title">O que nossas clientes dizem</h2>
+         <div class="sat-big">99<sup>%</sup></div>
+         <div class="sat-sublbl">Taxa de satisfacao!</div>
+         <div class="sat-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+         <div class="sat-reviews">Baseado em 8.533 avaliacoes!</div>
       </div>
-   </section>
+   </div>
 
-   <!-- GARANTIA 30 -->
-   <section class="vp-guarantee" aria-label="Garantia 30 dias">
-      <div class="vp-guarantee-card">
-         <img src="https://jornalife.com/pv-vision/img/produto-garantia.webp" alt="Selo de Garantia 30 dias" class="vp-guarantee-seal">
-         <h2 class="vp-guarantee-h1">100% de Satisfacao Garantida</h2>
-         <h3 class="vp-guarantee-h2">Garantia de Reembolso de 30 Dias</h3>
-
-         <p>O <strong>DermaBloom</strong> conta com uma garantia incondicional de reembolso total valida por ate <strong>30 dias</strong> apos a sua compra.</p>
-
-         <p>Se voce nao ficar completamente satisfeito(a) com o produto, com seus resultados ou com a sua experiencia dentro desses <strong>30 dias</strong>, basta nos avisar enviando um e-mail para <strong>sac@dermabloom.com.br</strong> e nos faremos o reembolso total do seu investimento.</p>
-
-         <p>Isso mesmo: voce pode devolver todos os potes, estejam eles cheios ou vazios, a qualquer momento dentro do prazo de <strong>30 dias</strong> da compra e recebera o reembolso completo.</p>
-
-         <p class="vp-guarantee-final">Faca seu pedido hoje, sem riscos - nos garantimos seus resultados com o nosso proprio dinheiro.</p>
-
-         <div class="vp-reclame-badge">
-            <img src="https://jornalife.com/pv-vision/img/selo-garantia.webp" alt="Verificada por Reclame Aqui">
+   <!-- GARANTIA -->
+   <div class="guar-section">
+      <div class="guar-card">
+         <div class="guar-medal-wrap">
+            <img src="https://saudeeflix.com/pv-derma/img/produto-garantia.png" alt="Garantia 30 dias" class="guar-medal">
          </div>
+         <div class="guar-tag1">100% de Satisfacao Garantida</div>
+         <div class="guar-tag2">Garantia de Reembolso de 30 Dias</div>
+         <p class="guar-text">O DermaBloom conta com uma <strong>garantia incondicional de reembolso total valida por ate 30 dias</strong> apos a sua compra.</p>
+         <p class="guar-text">Se voce nao ficar completamente satisfeita com o produto, com seus resultados ou com a sua experiencia dentro desses 30 dias, basta nos avisar enviando um e-mail para <strong>sac@dermabloom.com.br</strong> e nos faremos o reembolso total do seu investimento.</p>
+         <p class="guar-text">Voce pode devolver todos os potes do produto, estejam eles cheios ou vazios, a qualquer momento dentro do prazo de <strong>30 dias</strong> da compra e recebera o reembolso completo.</p>
+         <p class="guar-text"><strong>E assim que confiamos na eficacia do DermaBloom.</strong> Entao, faca seu pedido hoje, sem riscos. Nos garantimos seus resultados com o nosso proprio dinheiro!</p>
+         <img src="https://saudeeflix.com/pv-derma/img/selo-garantia.webp" alt="Selo Garantia ReclameAQUI" style="max-width:180px;height:auto;margin-top:14px;display:block;margin-left:auto;margin-right:auto">
       </div>
-   </section>
+   </div>
 
-   <!-- QUALIDADE / CERTS -->
-   <section class="vp-quality" aria-label="Qualidade certificada">
-      <div class="vp-quality-inner">
-         <div class="vp-quality-stars" aria-label="5 estrelas">
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-         </div>
-         <h2 class="vp-quality-title"><strong>100%</strong> Garantia de Qualidade</h2>
-         <p>O <strong>DermaBloom</strong> e produzido em laboratorio certificado, seguindo rigorosos padroes internacionais de fabricacao (GMP) e todas as exigencias da Anvisa.</p>
-         <p>Cada lote passa por <strong>testes independentes</strong> de pureza e potencia antes de chegar ate voce - porque a sua pele merece apenas o melhor.</p>
-         <p>Trabalhamos apenas com fornecedores premium e ingredientes de origem rastreada. E por isso que garantimos cada pote de <strong>DermaBloom</strong> que vendemos.</p>
-         <div class="vp-quality-certs">
-            <div class="cert">ANVISA</div>
-            <div class="cert">GMP</div>
-            <div class="cert">Reclame Aqui</div>
-         </div>
+   <!-- QUALIDADE -->
+   <div class="quality-section">
+      <div class="quality-inner">
+         <div class="quality-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+         <h2 class="quality-title">100% Garantia de<br>Qualidade</h2>
+         <p class="quality-text">O DermaBloom e fabricado seguindo padroes que vao alem do exigido pela <strong>Anvisa e pelas Boas Praticas de Fabricacao.</strong></p>
+         <p class="quality-text">Testamos cada lote de forma independente para garantir que voce receba apenas o <strong>produto da mais alta qualidade.</strong></p>
+         <p class="quality-text">Nosso nome esta em jogo, e e por isso que garantimos cada pote de DermaBloom que vendemos.</p>
+         <img src="https://saudeeflix.com/pv-derma/img/certificados.png" alt="Certificados de Qualidade" style="max-width:80%;height:auto;margin:24px auto 0;display:block">
       </div>
-   </section>
+   </div>
 
    <!-- RESULTADOS REAIS -->
-   <section class="vp-results" aria-label="Resultados reais">
-      <div class="vp-results-inner">
-         <h2 class="vp-results-title">Resultados Reais do <strong>DermaBloom&reg;</strong></h2>
-         <span class="vp-results-highlight">Historias que Transformam Vidas</span>
-
-         <figure class="vp-polaroid">
-            <img src="https://jornalife.com/pv-vision/img/depoimento1.jpg" alt="Clientes DermaBloom">
-         </figure>
-
-         <!-- Instagram review 1 -->
-         <article class="vp-ig-card">
-            <header class="vp-ig-card-top">
-               <span class="vp-ig-logo">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                     <rect x="3" y="3" width="18" height="18" rx="5"></rect>
-                     <circle cx="12" cy="12" r="4"></circle>
-                     <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"></circle>
-                  </svg>
-                  Instagram
-               </span>
-            </header>
-            <div class="vp-ig-body">
-               <div class="vp-ig-avatar">SA</div>
-               <div class="vp-ig-content">
-                  <div class="vp-ig-name-row">
-                     <span class="vp-ig-name">Sofia Almeida</span>
-                     <span class="vp-ig-verified" aria-label="Verificada">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0L9.84 2.4 6.66 1.92 5.4 4.92 2.4 6.18l.48 3.18L0 12l2.4 2.4-.48 3.18 3 1.26L6.18 21.6l3.18-.48L12 24l2.16-2.4 3.18.48 1.26-3 3-1.26-.48-3.18L24 12l-2.4-2.16.48-3.18-3-1.26L17.82 2.4 14.64 2.4z"></path><path d="M10 16.4l-4-4 1.4-1.4 2.6 2.6 5.6-5.6L17 9.4z" fill="#fff"></path></svg>
-                     </span>
-                     <span class="vp-ig-stars" aria-label="5 estrelas">
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                     </span>
-                     <span class="vp-ig-date">15 de abril de 2026</span>
-                  </div>
-                  <p class="vp-ig-text">Aos 49 anos minha pele estava flacida, opaca e cheia de linhas finas. Comecei a tomar DERMABLOOM ha 2 meses e a diferenca e impressionante: pele mais firme, viço de volta e ate as manchas estao mais clarinhas. Minha autoestima voltou e meu marido nao para de elogiar!</p>
-                  <p class="vp-ig-hashtags">#peleradiante #dermabloom #autoestima</p>
-                  <div class="vp-ig-actions">
-                     <span>215 curtidas</span>
-                     <span>Responder</span>
-                     <span class="translate">Ver traducao</span>
-                  </div>
-               </div>
-            </div>
-         </article>
-
-         <!-- Instagram review 2 -->
-         <article class="vp-ig-card">
-            <header class="vp-ig-card-top">
-               <span class="vp-ig-logo">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                     <rect x="3" y="3" width="18" height="18" rx="5"></rect>
-                     <circle cx="12" cy="12" r="4"></circle>
-                     <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"></circle>
-                  </svg>
-                  Instagram
-               </span>
-            </header>
-            <div class="vp-ig-body">
-               <div class="vp-ig-avatar alt">PR</div>
-               <div class="vp-ig-content">
-                  <div class="vp-ig-name-row">
-                     <span class="vp-ig-name">Patricia Ribeiro</span>
-                     <span class="vp-ig-verified" aria-label="Verificada">
-                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0L9.84 2.4 6.66 1.92 5.4 4.92 2.4 6.18l.48 3.18L0 12l2.4 2.4-.48 3.18 3 1.26L6.18 21.6l3.18-.48L12 24l2.16-2.4 3.18.48 1.26-3 3-1.26-.48-3.18L24 12l-2.4-2.16.48-3.18-3-1.26L17.82 2.4 14.64 2.4z"></path><path d="M10 16.4l-4-4 1.4-1.4 2.6 2.6 5.6-5.6L17 9.4z" fill="#fff"></path></svg>
-                     </span>
-                     <span class="vp-ig-stars" aria-label="5 estrelas">
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-                     </span>
-                     <span class="vp-ig-date">3 de janeiro de 2026</span>
-                  </div>
-                  <p class="vp-ig-text">Trabalho 9h por dia em frente ao computador e minha pele estava ressecada, sem brilho e com olheiras profundas. Em 3 semanas tomando DERMABLOOM senti a pele mais hidratada por dentro, com mais firmeza e o viço voltou. Hoje recebo elogios todos os dias. Recomendo demais!</p>
-                  <p class="vp-ig-hashtags">#dermabloom #pelefirme #colagenonatural</p>
-                  <div class="vp-ig-actions">
-                     <span>348 curtidas</span>
-                     <span>Responder</span>
-                     <span class="translate">Ver traducao</span>
-                  </div>
-               </div>
-            </div>
-         </article>
-
+   <div class="resultados-section">
+      <div class="res-header">
+         <h2 class="res-titulo">Resultados Reais do DermaBloom&reg;</h2>
+         <div><span class="res-faixa">Resultados que Transformam Vidas</span></div>
       </div>
-   </section>
+      <div class="res-imgs-wrap">
+         <img src="https://saudeeflix.com/pv-derma/img/Camada-1-copiar-2.png" alt="Resultado 1" class="res-img">
+         <img src="https://saudeeflix.com/pv-derma/img/Camada-1-copiar.png" alt="Resultado 2" class="res-img">
+         <img src="https://saudeeflix.com/pv-derma/img/Camada-1.png" alt="Resultado 3" class="res-img">
+      </div>
+   </div>
 
-   <!-- URGENCY FINAL -->
-   <section class="vp-final-urgency">
-      <div class="vp-final-urgency-inner">
-         <span class="vip-badge">Esta Oferta Nao Volta</span>
-         <h2>
-            Garanta sua <strong>DermaBloom VIP</strong> agora
-            <span class="accent">antes que o estoque acabe</span>
-         </h2>
-         <div class="vp-hero-arrow" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 16.5L4 8.5h16z"></path></svg>
-         </div>
-         <div class="vp-countdown" role="timer">
-            <div class="vp-countdown-cell">
-               <span class="vp-countdown-number" id="cd-min-2">14</span>
-               <span class="vp-countdown-label">Minutos</span>
+   <!-- CONTADOR (repete) -->
+   <div class="cd-section">
+      <div class="cd-inner">
+         <p class="cd-pre">Garanta seu DermaBloom com desconto</p>
+         <h2 class="cd-title"><span class="cd-hi">enquanto durarem os estoques!</span></h2>
+         <div class="cd-arrow">&#9660;</div>
+         <div class="cd-timer-row">
+            <div class="cd-box">
+               <span class="cd-num" id="cd2-min">14</span>
+               <span class="cd-lbl">Minutos</span>
             </div>
-            <div class="vp-countdown-cell">
-               <span class="vp-countdown-number" id="cd-sec-2">59</span>
-               <span class="vp-countdown-label">Segundos</span>
+            <span class="cd-sep">:</span>
+            <div class="cd-box">
+               <span class="cd-num" id="cd2-sec">59</span>
+               <span class="cd-lbl">Segundos</span>
             </div>
          </div>
       </div>
-   </section>
+   </div>
 
-   <!-- OFERTAS (repete) -->
-   <section class="vp-offers" aria-label="Escolha seu pacote DermaBloom">
-      <div class="vp-offers-inner">
-
-         <a href="https://checkout.payt.com.br/1040baeb8ff76589c85cb9665c87bc54?split=12&src=derma-back" class="vp-card" aria-label="Comprar 1 pote DermaBloom VIP">
-            <img src="https://saudeeflix.com/pv-derma/img/1-5.webp" alt="DermaBloom - 1 Pote - 30 dias" class="vp-card-img">
-         </a>
-
-         <a href="https://checkout.payt.com.br/1c33ecae4bf83a7a7104353d9530afda?split=12&src=derma-back" class="vp-card" aria-label="Comprar 3 potes DermaBloom VIP">
-            <img src="https://saudeeflix.com/pv-derma/img/2-2.webp" alt="DermaBloom - 3 Potes - 90 dias" class="vp-card-img">
-         </a>
-
-         <a href="https://checkout.payt.com.br/8f7169705bc163ec1c3d0ca8535b3850?split=12&src=derma-back" class="vp-card featured" aria-label="Comprar 6 potes DermaBloom VIP">
-            <img src="https://saudeeflix.com/pv-derma/img/3-2.webp" alt="DermaBloom - 6 Potes - 180 dias" class="vp-card-img">
-         </a>
-
+   <!-- 3 CARDS OFERTA (repete) -->
+   <div class="oc-section">
+      <div class="oc-imgs-row">
+         <a href="https://checkout.payt.com.br/1040baeb8ff76589c85cb9665c87bc54?split=12&src=derma-back"><img src="https://saudeeflix.com/pv-derma/img/1-5.webp" alt="1 Pote DermaBloom" class="oc-full-img"></a>
+         <a href="https://checkout.payt.com.br/1c33ecae4bf83a7a7104353d9530afda?split=12&src=derma-back"><img src="https://saudeeflix.com/pv-derma/img/2-2.webp" alt="3 Potes DermaBloom" class="oc-full-img"></a>
+         <a href="https://checkout.payt.com.br/8f7169705bc163ec1c3d0ca8535b3850?split=12&src=derma-back"><img src="https://saudeeflix.com/pv-derma/img/3-2.webp" alt="6 Potes DermaBloom" class="oc-full-img"></a>
       </div>
-   </section>
+   </div>
 
    <!-- FAQ -->
-   <section class="vp-faq" aria-label="Perguntas frequentes">
-      <div class="vp-faq-inner">
-         <h2 class="vp-faq-title">Perguntas Frequentes</h2>
-         <p class="vp-faq-subtitle">Tudo que voce precisa saber antes de comecar seu tratamento</p>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">Como devo consumir o DermaBloom?</summary>
-            <p class="vp-faq-a">Tome <strong>2 capsulas por dia</strong>, preferencialmente uma de manha e outra a noite, junto com as refeicoes para melhor absorcao. Cada pote contem capsulas suficientes para 30 dias de uso continuo. A consistencia diaria e o que garante os melhores resultados na firmeza, hidratacao e viço da sua pele.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">Em quanto tempo comeco a perceber resultados?</summary>
-            <p class="vp-faq-a">A maioria das nossas clientes ja sente a pele <strong>mais hidratada e iluminada</strong> nas primeiras 2 a 3 semanas. Para resultados completos em firmeza, reducao de linhas finas e uniformidade do tom, recomendamos seguir o tratamento por pelo menos 90 dias. Quanto mais constante o uso, melhores e mais duradouros os resultados.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">Tem contraindicacao?</summary>
-            <p class="vp-faq-a">Por ser uma formula natural com ingredientes em doses seguras, o DermaBloom nao tem efeitos colaterais conhecidos quando tomado conforme indicado. <strong>Nao e recomendado para gestantes, lactantes e menores de 18 anos</strong> sem orientacao medica. Se voce tem alguma condicao de saude pre-existente, converse com seu medico antes de iniciar.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">E se eu nao gostar? Como funciona a garantia?</summary>
-            <p class="vp-faq-a">Voce esta protegido(a) pela nossa <strong>Garantia Incondicional de 30 Dias</strong>. Se em qualquer momento dentro desse prazo voce nao estiver totalmente satisfeito(a) com os resultados, basta nos enviar um e-mail em <strong>sac@dermabloom.com.br</strong> e devolvemos 100% do valor investido - mesmo com os potes vazios.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">O frete e realmente gratis?</summary>
-            <p class="vp-faq-a">Sim! O <strong>frete e 100% gratis para todo o Brasil</strong> em qualquer um dos pacotes desta oferta VIP. Voce nao paga nada a mais alem do valor do pacote escolhido, e o produto chega direto na sua casa em embalagem discreta.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">Posso usar o DermaBloom se tiver algum problema de saude?</summary>
-            <p class="vp-faq-a">O DermaBloom e uma formula natural, mas se voce possui <strong>alguma condicao de saude pre-existente</strong>, faz uso continuo de medicamentos ou esta em tratamento medico, recomendamos consultar seu medico antes de iniciar a suplementacao - assim como em qualquer suplemento alimentar.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">Qual a validade do produto apos aberto?</summary>
-            <p class="vp-faq-a">Apos aberto, recomendamos consumir o pote em ate <strong>30 dias</strong>, mantendo-o fechado, em local seco, fresco e ao abrigo de luz direta. A validade total impressa no pote (lacrado) e de <strong>24 meses</strong> a partir da data de fabricacao.</p>
-         </details>
-
-         <details class="vp-faq-item">
-            <summary class="vp-faq-q">O que e a garantia incondicional?</summary>
-            <p class="vp-faq-a">A <strong>garantia incondicional de 30 dias</strong> significa que voce pode testar o DermaBloom sem qualquer risco. Se por qualquer motivo voce nao gostar dos resultados, da textura, do sabor ou simplesmente mudar de ideia, basta nos avisar em ate 30 dias e devolvemos 100% do valor pago - sem perguntas, sem burocracia.</p>
-         </details>
-
+   <section class="section sec-light" id="faq-section">
+      <div class="wrap-sm">
+         <span class="eyebrow">Tire suas duvidas</span>
+         <h2 class="sec-title" style="color:var(--lt-txt)">Perguntas <em>frequentes</em></h2>
+         <p class="sec-desc" style="color:var(--lt-muted);margin-bottom:28px">Respostas para as duvidas mais comuns.</p>
+         <div class="faq-list">
+            <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Como devo consumir o DermaBloom?<div class="faq-arr"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a"><div class="faq-inner">Tome 2 capsulas por dia, preferencialmente uma de manha e outra a noite, junto com as refeicoes para melhor absorcao. Recomendamos consumo diario para melhores resultados.</div></div></div>
+            <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Em quanto tempo comeco a perceber resultados?<div class="faq-arr"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a"><div class="faq-inner">Os resultados variam de pessoa para pessoa, mas muitas clientes relatam melhora visivel nas primeiras semanas de uso continuo. Para resultados mais expressivos, recomendamos pelo menos 2 a 3 meses.</div></div></div>
+            <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Tem contraindicacao?<div class="faq-arr"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a"><div class="faq-inner">Gestantes, lactantes ou pessoas em acompanhamento medico devem consultar um profissional de saude antes de iniciar qualquer suplementacao.</div></div></div>
+            <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">E se eu nao gostar? Como funciona a garantia?<div class="faq-arr"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a"><div class="faq-inner">Simples: se dentro de 30 dias voce nao estiver satisfeita por qualquer motivo, basta nos contatar pelo e-mail sac@dermabloom.com.br e devolvemos 100% do valor pago. Sem burocracia, sem questionamentos.</div></div></div>
+            <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">O frete e realmente gratis?<div class="faq-arr"><svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg></div></div><div class="faq-a"><div class="faq-inner">Sim! O frete e 100% gratis para todo o Brasil, independente do pacote escolhido. Voce paga apenas pelo produto.</div></div></div>
+         </div>
       </div>
    </section>
 
    <!-- FOOTER -->
-   <footer class="vp-footer">
-      <div class="vp-footer-inner">
-         <p class="vp-footer-brand"><strong>DermaBloom</strong>&reg; - Site Oficial</p>
-         <p class="vp-footer-tag">Suplemento natural para firmeza, viço e saude da pele</p>
-         <nav class="vp-footer-links" aria-label="Links institucionais">
-            <a href="#">Termos de Uso</a>
-            <span class="sep">-</span>
-            <a href="#">Politica de Privacidade</a>
-            <span class="sep">-</span>
-            <a href="mailto:sac@dermabloom.com.br">sac@dermabloom.com.br</a>
-         </nav>
-         <p class="vp-footer-rights">&copy; 2026 DermaBloom. Todos os direitos reservados.</p>
-      </div>
+   <footer>
+      <div class="ft-copy">DermaBloom &copy; Todos os direitos reservados &middot; <a href="mailto:sac@dermabloom.com.br" style="color:inherit">sac@dermabloom.com.br</a></div>
    </footer>
 
+   <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+      <svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 9l5-5 5 5"/></svg>
+   </button>
+
    <script>
-      // Countdown timer (15 min)
+      function toggleFaq(el){
+         var item=el.parentElement;
+         var was=item.classList.contains('open');
+         document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open')});
+         if(!was) item.classList.add('open');
+      }
+
+      // Hero VIP countdown (15 min)
       (function () {
          var end = Date.now() + 15 * 60 * 1000;
          function pad(n) { return String(n).padStart(2, '0'); }
@@ -367,51 +219,40 @@
             var min = Math.floor(rem / 60000);
             var sec = Math.floor((rem % 60000) / 1000);
             var mins = pad(min), secs = pad(sec);
-            ['cd-min', 'cd-min-2'].forEach(function (id) {
-               var el = document.getElementById(id);
-               if (el) el.textContent = mins;
+            ['cd-min'].forEach(function (id) {
+               var el = document.getElementById(id); if (el) el.textContent = mins;
             });
-            ['cd-sec', 'cd-sec-2'].forEach(function (id) {
-               var el = document.getElementById(id);
-               if (el) el.textContent = secs;
+            ['cd-sec'].forEach(function (id) {
+               var el = document.getElementById(id); if (el) el.textContent = secs;
             });
             if (rem > 0) setTimeout(tick, 1000);
          }
          tick();
       })();
 
-      // Live watching count - varies subtly
-      (function () {
-         var el = document.getElementById('live-watching-count');
-         if (!el) return;
-         setInterval(function () {
-            var base = parseInt(el.textContent, 10) || 300;
-            var delta = Math.floor(Math.random() * 7) - 3;
-            var next = Math.max(180, Math.min(420, base + delta));
-            el.textContent = next;
-         }, 4000);
-      })();
-
-      // Data dinamica "disponivel ate"
-      (function () {
-         var el = document.getElementById('live-available-until');
-         if (!el) return;
-         var d = new Date();
-         d.setDate(d.getDate() + 1);
-         var dd = String(d.getDate()).padStart(2, '0');
-         var mm = String(d.getMonth() + 1).padStart(2, '0');
-         var yy = d.getFullYear();
-         el.textContent = dd + '/' + mm + '/' + yy;
+      // Saudeeflix cd-section countdown 14:59 loop
+      (function(){
+         var total = 14*60+59;
+         var pairs = [
+            [document.getElementById('cd1-min'),document.getElementById('cd1-sec')],
+            [document.getElementById('cd2-min'),document.getElementById('cd2-sec')]
+         ];
+         function pad(n){return n<10?'0'+n:''+n}
+         setInterval(function(){
+            total--; if(total<0) total=14*60+59;
+            var m=Math.floor(total/60), s=total%60;
+            pairs.forEach(function(p){if(p[0])p[0].textContent=pad(m);if(p[1])p[1].textContent=pad(s);});
+         },1000);
       })();
    </script>
 
-   <!-- WHATSAPP FLOAT (estilo Power) -->
+   <!-- WHATSAPP FLOAT -->
    <a href="https://api.whatsapp.com/send/?phone=554764277564&text=Ol%C3%A1%21+Quero+resgatar+meu+desconto+de+R%24150+nos+produtos+DermaBloom" target="_blank" class="wpp-float" title="Fale conosco no WhatsApp">
       <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
       <span class="wpp-label">Falar agora<small>R$ 150 de desconto</small></span>
    </a>
 
-   <!-- EXIT INTENT POPUP (estilo Power) -->
+   <!-- EXIT INTENT POPUP -->
    <div class="exit-overlay" id="exitPopup">
       <div class="exit-modal">
          <button class="close-x" id="closeExit" aria-label="Fechar">&times;</button>
@@ -429,19 +270,13 @@
    </div>
 
    <script>
-      // EXIT INTENT POPUP (estilo Power)
+      // EXIT INTENT POPUP
       (function() {
          var popup = document.getElementById('exitPopup');
          if (!popup) return;
          var shown = false;
-         function showPopup() {
-            if (shown) return;
-            shown = true;
-            popup.classList.add('show');
-         }
-         function hidePopup() {
-            popup.classList.remove('show');
-         }
+         function showPopup() { if (shown) return; shown = true; popup.classList.add('show'); }
+         function hidePopup() { popup.classList.remove('show'); }
          document.getElementById('closeExit').addEventListener('click', hidePopup);
          document.getElementById('noThanks').addEventListener('click', hidePopup);
          popup.addEventListener('click', function(e) { if (e.target === popup) hidePopup(); });
@@ -457,7 +292,7 @@
       })();
    </script>
 
-   <!-- Confetes ao carregar a pagina (estilo VIP) -->
+   <!-- Confetes ao carregar a pagina -->
    <script>
       (function () {
          if (typeof confetti !== 'function') return;
@@ -469,7 +304,7 @@
             particleCount: 90,
             spread: 90,
             origin: { y: 0.6 },
-            colors: ['#D4AF37', '#C9A227', '#B8860B', '#FAB005', '#FFFFFF']
+            colors: ['#1399FF', '#5DB9FF', '#E8526A', '#FFFFFF', '#F5C518']
          });
          var interval = setInterval(function () {
             var timeLeft = animationEnd - Date.now();
@@ -478,12 +313,12 @@
             confetti(Object.assign({}, defaults, {
                particleCount: particleCount,
                origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
-               colors: ['#D4AF37', '#FAB005', '#FFFFFF']
+               colors: ['#1399FF', '#5DB9FF', '#FFFFFF']
             }));
             confetti(Object.assign({}, defaults, {
                particleCount: particleCount,
                origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
-               colors: ['#C9A227', '#B8860B', '#FFFFFF']
+               colors: ['#E8526A', '#FFFFFF', '#1399FF']
             }));
          }, 250);
       })();
